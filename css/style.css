@@ -1,0 +1,554 @@
+@import 'https://fonts.googleapis.com/css?family=Julius+Sans+One';
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i';
+@import 'https://fonts.googleapis.com/css?family=Baloo+Bhaina';
+@import 'https://fonts.googleapis.com/css?family=Amatic+SC';
+
+body{
+/*  margin: 0;
+  padding: 0;*/
+  font-family: 'Roboto', sans-serif;
+}
+
+span.ring {
+  color: #FFD500;
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+span.ig {
+  color: #FF006E;
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+/*a:hover, a:visited, a{
+  text-decoration: none;
+}*/
+
+a {
+  text-decoration: none;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+
+a:focus, 
+a:hover {
+  text-decoration: none;
+  outline: none
+}
+
+
+
+/*HEADER*/
+
+.top-header{
+      background: linear-gradient(rgba(0, 0, 0, 0.882353) 0%, transparent 100%);
+  position: fixed;
+  width: 100%;
+  z-index: 333;
+}
+.header-row{
+  margin: 0;
+  padding: 0;
+}
+.top-header img.logo{
+  float: left;
+  margin-top: 8px;
+  margin-bottom: 30px;
+  transition:all 0.7s ease 0s;
+  -webkit-transition:all 0.7s ease 0s;
+  -moz-transition:all 0.7s ease 0s;
+  -o-transition:all 0.7s ease 0s;
+  -ms-transition:all 0.7s ease 0s;
+}
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  margin-bottom: 8px;
+  margin-top: 23px;
+  transition:all 0.7s ease 0s;
+  -webkit-transition:all 0.7s ease 0s;
+  -moz-transition:all 0.7s ease 0s;
+  -o-transition:all 0.7s ease 0s;
+  -ms-transition:all 0.7s ease 0s;
+}
+.navbar-toggle span{
+  color: #fff;
+}
+ul.nav{
+  margin: 0;
+  padding: 0;
+}
+.navbar-default .navbar-nav li a {
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  transition: all .7s ease 0s;
+  -webkit-transition: all .7s ease 0s;
+  -moz-transition: all .7s ease 0s;
+  -o-transition: all .7s ease 0s;
+  -ms-transition: all .7s ease 0s;
+  padding: 12px 20px;
+  border-radius: 5px;
+}
+.navbar-default .navbar-nav li a:hover{
+  color: red;
+  background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+  margin-top: 4px;
+}
+@media screen and (max-width: 320px){
+  .top-header .top-header img {
+    padding: 20px;
+  }
+}
+
+/*BANNER AREA*/
+
+.banner{
+  background: url(../img/baru.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner h3{
+  font-size: 30px;
+  color: #fff;
+  margin-top: 205px;
+  font-weight: 800;
+}
+.banner h1{
+  font-size: 68px;
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.banner p{
+  font-size: 18px;
+  color: #fff;
+}
+.banner img{
+  margin: 50px;
+}
+.banner button{
+  width: 190px;
+  height: 50px;
+  font-size: 14px;
+  color: #0b1016;
+  background: #cfc91d;
+  border-radius: 2px;
+  border: 0px;
+  font-weight: 800;
+  margin-bottom: 205px;
+  transition: all .5s ease 0s;
+  -webkit-transition: all .5s ease 0s;
+  -moz-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
+  -ms-transition: all .5s ease 0s;
+
+}
+.banner button:hover{
+  background: red;
+  color: #fff;
+}
+
+/*ABOUT*/
+
+.about{
+  background: #fff;
+}
+.about h2{
+  font-size: 46px;
+  color: #050505;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+.about-heading img{
+  margin-bottom: 30px;
+}
+.about-heading p{
+  font-size: 16px;
+  color:#050505;
+  margin-bottom: 80px;
+}
+.about-heading p span{
+  font-size: 23px;
+}
+.single-about{
+  margin-bottom: 90px;
+}
+.single-about + .single-about{
+  border-left: 1px solid #d9dbdb;
+}
+.about-inside{
+  padding: 50px;
+}
+.single-about:hover{
+  background: blue;
+  color: #fff;
+}
+.about-inside h3{
+  font-size: 16px;
+  color: #7e8287;
+  font-weight: 800;
+}
+.about-inside p{
+  font-size: 13px;
+  color: #050505;
+}
+.about-inside i.fa{
+  color: #02918c;
+  font-size: 30px;
+}
+.single-about:hover .about-inside i.fa{
+  color: #fff;
+}
+.single-about:hover .about-inside p{
+  color: #fff;
+}
+.single-about:hover .about-inside h3{
+  color: #fff;
+}
+
+/*SERVICE*/
+
+.space{
+  margin-top: 40px;
+}
+#sec3 {
+
+    background-color: rgba(193, 193, 193, 0.3);
+}
+#tf-services i.fa {
+  font-size: 40px;
+  border: 4px solid #FCAC45;
+  width: 100px;
+  height: 100px;
+  padding: 27px 25px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+#tf-services i.fa.fa-mobile{
+  font-size: 50px;
+  padding: 20px 25px;
+}
+
+#tf-services .service:hover>i.fa{
+  background: #FCAC45;
+  color: #ffffff;
+}
+.service1 h2{
+  font-size: 46px;
+  color: #050505;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+.service {
+    padding: 0px 0px 0px 0px;
+    color: black;
+}
+
+.service1 {
+  padding: 0px 0px;
+}
+.service {
+  padding: 30px 0px;
+}
+.clearfix {
+  border: 1px solid black;
+}
+
+/*MY WORK*/
+
+.myWork {
+      color: #000000;
+      /*padding: 0px 0px 90px 0px;*/
+}
+.work-heading img {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.work-heading p{
+  font-size: 16px;
+  color:#050505;
+  margin-bottom: 80px;
+}
+.work-heading p span{
+  font-size: 23px;
+}
+#portfolio  h2{
+  font-size: 46px;
+  color: #050505;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+#portfolio .container-fluid, 
+#portfolio .container-fluid .col-sm-3  {
+  overflow: hidden;
+  padding: 0;
+}
+
+#portfolio .folio-item {
+  position: relative;
+}
+
+#portfolio .overlay {
+  background-color: #000;
+  color: #fff; 
+  left: 0;
+  right:0;
+  bottom:-100%;
+  height: 0;
+  position: absolute;
+  text-align: center;
+  opacity:0;  
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.overlay .overlay-content {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay .overlay-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.overlay .folio-info {
+  opacity: 0;
+  margin-bottom: 75px;
+  margin-top: -75px;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.overlay .folio-info h3 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.folio-overview a {
+  font-size: 18px;
+  color: #333;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+.folio-overview a:hover {
+  color: #fff;
+}
+
+.folio-overview .folio-expand {
+  margin-top: -500px;
+  margin-left: -500px;
+}
+
+.folio-image, .folio-overview .folio-expand {
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+#portfolio .folio-item:hover .folio-image {
+  -webkit-transform: scale(1.5) rotate(-15deg);
+  transform: scale(1.5) rotate(-15deg);
+}
+
+.folio-image img {
+  width: 100%;
+}
+
+#portfolio .folio-item:hover .overlay {
+  opacity: 0.8;
+  bottom: 0;
+  height: 100%;
+}
+
+#portfolio .folio-item:hover .folio-overview .folio-expand {
+  margin-top: 0;
+  margin-left:0;
+}
+
+#portfolio .folio-item:hover .overlay .folio-info {
+  opacity: 1;  
+  margin-bottom:0;
+  margin-top:0;
+}
+
+
+#single-portfolio {
+  padding: 90px 0;
+  background: #f5f5f5;
+  position: relative;
+}
+
+#single-portfolio img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#single-portfolio .close-folio-item {
+  position: absolute;
+  top: 30px;
+  font-size: 34px;
+  width: 34px;
+  height: 34px;
+  left: 50%;
+  color: #999;
+  margin-left: -17px;
+}
+
+/*Card*/
+
+
+.card-content h2 {
+    font-size: 46px;
+  color: #050505;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+.card-content {
+  background-color: rgba(193, 193, 193, 0.3);
+  padding: 0px 0px 60px 0px;
+}
+
+.tab-wrap {
+    border: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+}
+.media .pull-left {
+    margin-right: 20px;
+}
+.nav-tabs {
+    border-bottom: transparent;
+    border-right: 1px solid #e6e6e6;
+}
+.nav-tabs li {
+    margin-bottom: 0px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.nav-tabs li.active a, .nav-tabs li.active a:hover, .nav-tabs li.active a:focus {
+    border: 0;
+    color: #fff;
+    background: #1f1f20;
+    position: relative;
+}
+.nav-tabs li a {
+    background: #f5f5f5;
+    color: #666;
+    border-radius: 0;
+    border: 0 none;
+    line-height: 24px;
+    margin-right: 0;
+    padding: 13px 15px;
+}
+.tab-content {
+    padding: 20px;
+}
+.nav-tabs li.active a:after {
+    position: absolute;
+    content: "";
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-color: transparent transparent transparent #1f1f20;
+    border-width: 25px 22px;
+    right: -44px;
+    top: 0;
+}
+.nav-tabs li a {
+    background: #f5f5f5;
+    color: #666;
+    border-radius: 0;
+    border: 0 none;
+    line-height: 24px;
+    margin-right: 0;
+    padding: 13px 15px;
+}
+.nav-tabs li a:hover {
+    background: #1f1f20;
+    color: #fff;
+}
+.bank_set ul li {
+  padding: 10px 5px 10px 5px;
+  display: inline;
+}
+
+/*CONTACT*/
+
+.marginbot-20 {
+    margin-bottom: 20px !important;
+}
+.contact-heading {
+    padding: 0px 0px 30px 0px;
+}
+.contact-heading h2 {
+      font-size: 46px;
+    color: #050505;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.contact-heading img {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+form#contact-form input, form#contact-form select, form#contact-form textarea {
+    font-size: 14px;
+    line-height: 1.6em;
+    border: 1px solid #eee;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 2px;
+}
+.btn-skin:hover, .btn-skin:focus, .btn-skin:active, .btn-skin.active {
+    color: #fff;
+    background-color: #000000;
+    border-color: #666;
+}
+.btn-skin {
+  border-radius: 1px;
+}
+.home-section {
+    padding-top: 30px;
+    padding-bottom: 110px;
+    display: block;
+    position: relative;
+    z-index: 120;
+}
+.parallax {
+    background-image: url("../img/contact.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*FOOTER*/
+
+.footer {
+  padding: 20px 0px;
+    color: #FFFFFF;
+  background-color: #000000;
+}
